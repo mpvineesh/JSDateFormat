@@ -29,15 +29,3 @@ Date.prototype.formatDate = function(format)
 var d = new Date();
 var f = d.formatDate("MM.DD.YYYY hh:mm T");
 console.log(f);
-
-
-/*
-Exception: TypeError: d.format is not a function
-@Scratchpad/9:33:9
-*/
-/*
-Exception: ReferenceError: datePart is not defined
-Date.prototype.formatDate/<@Scratchpad/9:24:9
-Date.prototype.formatDate@Scratchpad/9:23:5
-@Scratchpad/9:30:9
-*/
